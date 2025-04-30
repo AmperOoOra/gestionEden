@@ -1,0 +1,73 @@
+/* Design général */
+body {
+    background-color: #2ecc71; /* Fond vert */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: #ffffff; /* Intérieur blanc */
+    max-width: 900px; /* Limiter la largeur de l'application */
+    margin: 20px auto; /* Centrer horizontalement et ajouter un espacement vertical */
+    padding: 20px;
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Ombre pour l'effet d'élévation */
+}
+
+/* Style des titres */
+h1 {
+    text-align: center;
+    color: #34495e; /* Couleur sombre élégante */
+    margin-bottom: 30px;
+}
+
+/* Style des boutons */
+.btn {
+    border-radius: 5px; /* Coins arrondis */
+    margin: 5px;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+
+.btn-warning {
+    background-color: #f1c40f;
+    border-color: #f1c40f;
+}
+
+.btn-danger {
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+}
+
+/* Style des cartes */
+.card {
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover; /* Ajuste l'image pour qu'elle soit bien cadrée */
+}
+
+.card-body {
+    text-align: left;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+}
